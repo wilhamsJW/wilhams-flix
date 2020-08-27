@@ -1,10 +1,20 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import PageDefault from '../../components/PageDefault';
 
+export default props =>
+  <Fragment>
+    <PageDefault>
+
+      <h1>Cadastro de Categoria</h1>
+      <Link to="/">Ir para Home</Link>
+      
+    </PageDefault>
+  </Fragment>
+
 /* Forma Tradicional
-function CadastrarVideo() {
+function CadastrarCategoria() {
   return (
     <Fragment>
 
@@ -25,14 +35,4 @@ const Main = styled.main`
  padding-top: 50px;
  padding-left: 5%;
  padding-right: 5%;
-`;*/
-
-export default props =>
-  <Fragment>
-    <PageDefault>
-
-      <h1>Cadastro de Vídeo</h1>
-      <Link to="/cadastro/categoria">Categoria</Link>
-      
-    </PageDefault>
-  </Fragment>
+ `;*/
