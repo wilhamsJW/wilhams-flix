@@ -5,7 +5,7 @@ function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/" target='blank'>
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+        <img src="https://fontmeme.com/permalink/200825/d7ba98ec50cb2c6fee8dd912e640175f.png" style={{width: '180px'}} alt="Logo Alura" />
       </a>
       <p>
         Orgulhosamente criado por Wilhams Júnior durante a
